@@ -1,0 +1,114 @@
+.contactContent {
+  background: $color-2;
+  z-index: 1;
+  border-radius: $borderRadius;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  &:before {
+    z-index: -1;
+    content: "";
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    background: url(../../media/map.jpg) no-repeat center top/cover;
+    filter: opacity(0.5);
+  }
+  .contactBox {
+    background: $color-3;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    z-index: 2;
+    border-radius: $borderRadius;
+    box-shadow: 0 3px 10px #333;
+    width: 50%;
+    min-width: 440px;
+    min-height: 300px;
+    margin-top: 15%;
+
+    h1 {
+      text-align: center;
+      margin-top: 0.3rem;
+      position: relative;
+      color: $color-4;
+
+      &:after {
+        content: "";
+        height: 1px;
+        width: 50%;
+        background: $color-1;
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    ul {
+      height: 72%;
+      width: inherit;
+      margin-top: 5em;
+
+      li {
+        position: relative;
+        margin-top: 1.5em;
+      }
+
+      i {
+        font-size: 1.4rem;
+        position: relative;
+        transform: translateY(2px);
+        color: $color-4;
+      }
+      span {
+        font-size: 1.4rem;
+        position: absolute;
+        transform: translateX(52px);
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 350px;
+        transition: 0.2s ease;
+      }
+      .clickInput:hover {
+        transform: translateX(56px);
+        cursor: pointer;
+      }
+    }
+  }
+  .socialNetwork {
+    @include verticalCenter;
+    ul {
+      display: flex;
+      text-align: center;
+      width: 100%;
+      justify-content: space-around;
+      margin-top: 20%;
+
+      a {
+        font-size: 2.5em;
+        background: $color-4;
+        border-radius: $borderRadius;
+        padding: 0.5em 0.5em;
+        box-shadow: $shadow;
+
+        &:hover {
+          background: $color-1;
+        }
+        i {
+          color: $color-2;
+          margin-top: 0.3em;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .contactContent {
+    span {
+      font-size: 1rem !important;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+  }
+}

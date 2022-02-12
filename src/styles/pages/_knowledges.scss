@@ -106,7 +106,6 @@
       }
     }
 
-    //copier coller
     .experience {
       grid-area: E;
       margin: 0 0 0.5rem 0.5rem;
@@ -177,6 +176,9 @@
           span {
             position: absolute;
             transform: translateX(2.2rem);
+            color: $black;
+            font-family: $font-1;
+            font-weight: normal;
           }
         }
       }

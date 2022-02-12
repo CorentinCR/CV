@@ -1,5 +1,5 @@
 .contactContent {
-  background: $color-2;
+  background: $color-1;
   z-index: 1;
   border-radius: $borderRadius;
   width: 100%;
@@ -15,7 +15,7 @@
     filter: opacity(0.5);
   }
   .contactBox {
-    background: $color-3;
+    background: $color-2;
     margin: 0 auto;
     padding: 1rem 3rem;
     z-index: 2;
@@ -99,6 +99,16 @@
           margin-top: 0.3em;
         }
       }
+    }
+  }
+}
+@media screen and (max-width: 1300px) {
+  .contactContent {
+    span {
+      font-size: 1.2rem !important;
+    }
+    h4 {
+      font-size: 1.2rem;
     }
   }
 }

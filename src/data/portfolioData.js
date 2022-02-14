@@ -6,7 +6,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-react"],
     source: "https://gitlab.com/corentin.carette80/cv-corentincrt",
     info: "CV que vous êtes actuellement entrain de regarder",
-    picture: "./media/project1.png",
+    picture: "./media/project1.PNG",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
     source: "https://gitlab.com/corentin.carette80/acsq-aero-club",
     info: "Site vitrine pour un aérodrome fait lors de mon stage de L2 (non publier)",
-    picture: "./media/project3.png",
+    picture: "./media/project3.PNG",
   },
   //"php" =>"fab fa-php"
   //"node" =>"fab fa-node"

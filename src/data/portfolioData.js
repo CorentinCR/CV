@@ -26,6 +26,15 @@ export const portfolioData = [
     info: "Site vitrine pour un aérodrome fait lors de mon stage de L2 (non publier)",
     picture: "./media/project3.PNG",
   },
+  {
+    id: 4,
+    name: "Todo Liste",
+    languages: ["javascript", "css", "react"],
+    languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-react"],
+    source: "https://gitlab.com/corentin.carette80/todo-list",
+    info: "Une todo liste basique faite avec react",
+    picture: "./media/projet4.JPG",
+  },
   //"php" =>"fab fa-php"
   //"node" =>"fab fa-node"
 ];

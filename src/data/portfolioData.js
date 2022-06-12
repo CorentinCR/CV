@@ -35,6 +35,15 @@ export const portfolioData = [
     info: "Une todo liste basique faite avec react",
     picture: "./media/projet4.JPG",
   },
+  {
+    id: 5,
+    name: "Cinélounge",
+    languages: ["javascript", "react", "node"],
+    languagesIcons: ["fab fa-js", "fab fa-react", "fab fa-node", "fab fa-sass"],
+    source: "https://gitlab.com/corentin.carette80/projet-insy2s-front_end",
+    info: "Projet de l'insy2s sur lequel j'ai travaillé durant 4 mois avec un groupe (4 personnes), Cinélounge est un site commercial basé sur la vente de film/série et de leurs goodies",
+    picture: "./media/Projet5.JPG",
+  },
   //"php" =>"fab fa-php"
   //"node" =>"fab fa-node"
 ];
